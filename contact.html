@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Ashutosh Mishra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #7f23d4;
+            --primary-color-dark: #dd0ff0;
+            --secondary-color: #f80ad4;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --extra-light: #faf5ff;
+            --max-width: 1200px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5em; /* 1.5x the default font size */
+            background-color: var(--extra-light);
+            color: var(--text-dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .contact-container {
+            max-width: var(--max-width);
+            width: 100%; /* Ensure it fits mobile screens */
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-color-dark);
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        p {
+            font-weight: 600;
+            margin: 10px 0;
+            color: var(--text-dark);
+            font-size: 1.2rem;
+        }
+
+        .contact-detail {
+            color: var(--text-light);
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 1.3em; /* Slightly smaller on tablets */
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 5px;
+                font-size: 1.1em; /* Smaller on mobile */
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+        <p><strong>Name:</strong> Ashutosh Mishra</p>
+        <p><strong>Email:</strong> <a href="mailto:ashumdsa@gmail.com">ashumdsa@gmail.com</a></p>
+        <p><strong>Phone:</strong> 83809347xx</p>
+        <p><strong>Place:</strong> AIT Pune (FE COMP)</p>
+    </div>
+</body>
+</html>
